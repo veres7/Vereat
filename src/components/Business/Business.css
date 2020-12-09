@@ -1,0 +1,154 @@
+.Business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 16.66rem;
+  margin: 0 0.5rem 2.3rem 0.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@keyframes fadein {
+  from {
+    top: 500px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    top: 500px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    top: 500px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    top: 500px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    top: 500px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.Business .image-container {
+  height: 16.66rem;
+  margin-bottom: 1rem;
+}
+
+.Business h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Business-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Business-information p {
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.Business-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #89be3917;
+}
+.Business-address a:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: #89be39;
+  color: white;
+}
+.Business-address a:active {
+  transition: all 0.2s ease-in-out;
+  background-color: #89be39;
+  color: white;
+}
+.Business-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.Business-reviews h3 {
+  color: #89be39;
+  font-weight: 600;
+}
+
+.Business-reviews .rating {
+  font-size: 0.88rem;
+  line-height: 1rem;
+}
+.Business-phone {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1rem;
+}
+
+.Business-address a {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px #89be39 solid;
+  padding: 2px;
+}
+
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}

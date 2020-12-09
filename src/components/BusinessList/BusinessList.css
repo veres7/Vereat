@@ -1,0 +1,73 @@
+.BusinessList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 4.4rem 10%;
+}
+.Loading {
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+.void {
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.void .voidImg{
+  width: 35rem;
+  height: 20rem;
+  background: url("./void.jpg");
+  background-size:contain; 
+  background-repeat: no-repeat;
+  
+}
+.toTop{
+  display: block;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 10%;
+  left: 93%; 
+  background-color: white;
+  border: none;
+  background-color: #89be39;
+  outline: none;
+  opacity: 0;
+  visibility: visible;
+  transition: 0.5s all ease-in-out;
+}
+.toTop:hover{
+  cursor: pointer;
+  background-color: #4c6920;
+}
+@media only screen and (max-width: 560px) {
+  .toTop{
+    left: 85.5%;
+  }
+}

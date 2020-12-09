@@ -1,0 +1,27 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background: linear-gradient(-90deg, #ffffff 0%, #ececec 50%, #ffffff 100%);
+  background-size: 400% 400%;
+  width: 16.66rem;
+  height: 22rem;
+  border-radius: 10px;
+  margin: 0 0.5rem 2.3rem 0.5rem;
+  margin-top: 1rem;
+  -webkit-animation: fadein 1.2s, pulse 1s infinite; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.2s, pulse 1s infinite; /* Firefox < 16 */
+  -ms-animation: fadein 1.2s, pulse 1s infinite; /* Internet Explorer */
+  -o-animation: fadein 1.2s, pulse 1s infinite; /* Opera < 12.1 */
+  animation: fadein 1.2s, pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -140% 0%;
+  }
+}
