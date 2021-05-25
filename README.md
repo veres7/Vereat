@@ -16,9 +16,11 @@
 - Displaying number and address with a link to Google Maps.
 - Sorting by Highest Rated, Most Viewed or Best Match based on Yelp opinion ;)
 
+# Screenshots
+
 <div align="center">
 
-    <img width="500" src="./static/home.png">
-    <img width="500" src="./static/result.png">
+  <img src="./static/home.png">
+  <img src="./static/result.png">
 
 </div>
