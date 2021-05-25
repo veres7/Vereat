@@ -13,7 +13,7 @@
 
 - Searching for places to eat around the world.
 - Auto localization based on IP address.
-- Displaying number and address with a link to Google Maps.
+- Displaying clickable number and address with a link to Google Maps.
 - Sorting by Highest Rated, Most Viewed or Best Match based on Yelp opinion ;)
 
 # Screenshots
